@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Canas-de-Pesca</title>
+        <link rel="stylesheet" href="tentativa.css">
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+              <li>
+                  <a href=./home.html>Home</a>
+              </li>
+              <li>
+                  <a href=./about.html>Formulário</a>
+              </li>
+              <li>
+                  <a href=./service.html>Compra de Canas</a>
+              </li>
+              <li>
+                  <a href=./contact.html>Exemplos</a>
+              </li>
+            </ul>
+        </nav>
+
+        <form method="/form-handling-url" method="post">
+            <fieldset>
+                <legend>Adicionar utilizador</legend>
+
+                <div>
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <div>
+                    <label for="occupation">Ocupação</label>
+                    <input type="text" id="occupation" name="occupation">
+                </div>
+
+                <div>
+                    <p>Seleciona o teu continente:</p>
+                    <input type="radio" id="continent" value="africa">
+                    <label for="africa">África</label><br>
+                    <input type="radio" id="continent" value="centralamerica">
+                    <label for="centralamerica">América Central</label><br>
+                    <input type="radio" id="continent" value="northamerica">
+                    <label for="northamerica">América do Norte</label><br>
+                    <input type="radio" id="continent" value="southamerica">
+                    <label for="southamerica">América do Sul</label><br>
+                    <input type="radio" id="continent" value="antartida">
+                    <label for="antartida">Antártifa</label><br>
+                    <input type="radio" id="continent" value="asia">
+                    <label for="asia">Ásia</label><br>
+                    <input type="radio" id="continent" value="australia">
+                    <label for="australia">Austrália</label><br>
+                    <input type="radio" id="continent" value="europe">
+                    <label for="europe">Europa</label>
+                </div>
+
+                <div>
+                    <label for="comments">Comentários</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Aceitar</button>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>

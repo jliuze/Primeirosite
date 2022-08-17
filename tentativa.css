@@ -1,0 +1,98 @@
+body {
+    background-color: #6F7D8C;
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    color: #32021F;
+    text-decoration: underline;
+    text-decoration-color: #4B2E39;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    line-height:;
+    margin: 20px 0;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #32021F;
+    text-decoration: underline;
+    text-decoration-color: #77A0A9;
+    text-align: center;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+nav{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: #32021F;
+    text-decoration: underline;
+    text-decoration-color: #77A0A9;
+    width: 960px;
+    margin: 100px;
+}
+
+nav ul {
+    width: 960px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    width: 20%;
+    float: left;
+}
+
+nav ul li a {
+    text-align: center;
+    padding: 8px 0;
+    display: block;
+    width: 100%;
+    background: #b167ff; /* Old browsers */
+    background: -moz-linear-gradient(top,
+      #cdeb8e 0%, #501c84 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear,
+      left top, left bottom, color-stop(0%,#cdeb8e),
+      color-stop(100%,#c3dd43)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,
+      #cdeb8e 0%,#1e7e33 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,
+      #cdeb8e 0%,#caae34 100%); /* Opera 11.10+ */
+    background: linear-gradient(to bottom,
+      #cdeb8e 0%,#47b2d3 100%); /* W3C standard, IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(
+      startColorstr=’#cdeb8e’,
+      endColorstr=’#b0ca34′,GradientType=0 ); /* IE6-9 */
+    }
+
+.cana-de-pesca {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    outline: auto;
+    outline-color: #4B2E39;
+}
+
+form {
+    display:block;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #77A0A9;
+    margin: 10px;
+    padding: 10px;
+}
+
+.compras{
+    list-style-position: inside;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: circle;
+}
